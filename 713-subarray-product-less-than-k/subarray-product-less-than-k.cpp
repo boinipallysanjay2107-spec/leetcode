@@ -31,7 +31,6 @@ public:
                     prod=prod/nums[l];
                     l++;
                 }
-                if(prod<k)
                 c=c+r-l+1;
         }
         return c;
