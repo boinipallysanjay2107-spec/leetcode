@@ -22,7 +22,7 @@ public:
         */
         int r=0;
         int l=0;
-        int long long prod=1;
+        int prod=1;
         int c=0;
         if(k<=1) return 0;
         for( r=0;r<nums.size();r++){
