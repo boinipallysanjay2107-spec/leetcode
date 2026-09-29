@@ -13,7 +13,6 @@ public:
              }
                 sum=sum+nums[j];
                s.insert(nums[j]);
-           
              if(j-i+1==k){
                 Max=max(Max,sum);
              }
