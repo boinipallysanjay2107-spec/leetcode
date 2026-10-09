@@ -12,7 +12,7 @@ public:
             if(mp.second>1) ans.push_back(mp.first);
         }
         for(int i=1;i<=grid.size()*grid.size();i++){
-            if(m.find(i)==m.end()) ans.push_back(i);
+            if(!m.contains(i)) ans.push_back(i);
         }
         return ans;
     }
