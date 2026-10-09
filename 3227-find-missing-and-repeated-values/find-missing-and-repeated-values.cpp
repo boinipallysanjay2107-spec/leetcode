@@ -8,7 +8,7 @@ public:
                 m[grid[i][j]]++;
             }
         }
-        for(auto mp:m){
+        for(const auto& mp:m){
             if(mp.second>1) ans.push_back(mp.first);
         }
         for(int i=1;i<=grid.size()*grid.size();i++){
