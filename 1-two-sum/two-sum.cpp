@@ -37,6 +37,7 @@ public:
            if(m.find(target-nums[i])!=m.end()){
              ans.push_back(i);
              ans.push_back(m[target-nums[i]]);
+             break;
            }
            else{
             m[nums[i]]=i;
