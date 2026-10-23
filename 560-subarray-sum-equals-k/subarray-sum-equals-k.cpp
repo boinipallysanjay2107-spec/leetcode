@@ -12,8 +12,8 @@ public:
             }
         }
         return count; */
-        if(nums.size()==1&&k==nums[0]) return 1;
-        if(nums.size()==1&&k!=nums[0]) return 0;
+      //  if(nums.size()==1&&k==nums[0]) return 1;
+       // if(nums.size()==1&&k!=nums[0]) return 0;
         vector<int> ps(nums.size());
         ps[0]=nums[0];
         for(int i=1;i<nums.size();i++){
