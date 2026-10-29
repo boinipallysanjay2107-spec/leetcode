@@ -22,7 +22,6 @@ public:
             rp=rp*nums[i+1];
             r[i]=r[i]*rp;
         }
-        
         return r;
     }
 };
