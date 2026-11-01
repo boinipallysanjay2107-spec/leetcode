@@ -13,7 +13,7 @@ public:
             if(ls==rs) return i;
         }
         return -1; */
-        vector<int> ps(nums.size());
+       /* vector<int> ps(nums.size());
         vector<int> ss(nums.size());
         ps[0]=nums[0];
         for(int i=1;i<nums.size();i++){
@@ -28,6 +28,19 @@ public:
             return i;
         }
         
+         return -1;
+         */
+         int sum=0;
+         for(int i=0;i<nums.size();i++){
+            sum=sum+nums[i];
+         }
+         int ls=0;
+         for(int i=0;i<nums.size();i++){
+            if(sum-ls-nums[i]==ls){
+                return i;
+            }
+             ls=ls+nums[i];
+         }
          return -1;
 
     }
